@@ -148,6 +148,7 @@
             ItemTemplateSelector="{StaticResource ContextItemTemplateSelector}"
             ItemsSource="{x:Bind ViewModel.FilteredItems, Mode=OneWay}"
             PreviewKeyDown="CommandsDropdown_PreviewKeyDown"
+            SelectionChanged="CommandsDropdown_SelectionChanged"
             SelectionMode="Single">
             <ListView.Resources>
                 <x:Boolean x:Key="ListViewItemSelectionIndicatorVisualEnabled">False</x:Boolean>

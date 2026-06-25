@@ -148,6 +148,21 @@ public sealed partial class ContextMenu : UserControl,
         }
     }
 
+    private void CommandsDropdown_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (CommandsDropdown.SelectedItem is CommandContextItemViewModel item)
+        {
+            var announcement = item.Title;
+            if (!string.IsNullOrWhiteSpace(announcement))
+            {
+                UIHelper.AnnounceActionForAccessibility(
+                    CommandsDropdown,
+                    announcement,
+                    "CommandPaletteContextMenuItemChanged");
+            }
+        }
+    }
+
     private void CommandsDropdown_PreviewKeyDown(object sender, KeyRoutedEventArgs e)
     {
         if (e.Handled)
