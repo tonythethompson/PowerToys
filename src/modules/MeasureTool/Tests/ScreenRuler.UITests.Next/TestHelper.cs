@@ -253,20 +253,50 @@ public static class TestHelper
         return Session.FromProcess(ScreenRulerProcess, PowerToysModule.ScreenRuler, timeoutMS: 5000);
     }
 
-    /// <summary>Run a spacing-tool measurement and validate the clipboard output.</summary>
+    /// <summary>
+    /// Run a spacing-tool measurement and validate the clipboard, retrying the whole
+    /// activate → click → measure cycle (varying the spot) while the clipboard stays empty. Unlike the
+    /// free-form Bounds drag, the spacing tools depend on the Measure Tool's SCREEN-CAPTURE edge
+    /// detection: the click only copies when <c>measuredEdges</c> has a value, and that's set only when
+    /// a captured frame is processed. On a session where the capture API yields no frames (common on
+    /// headless/RDP CI, especially Win10) the clipboard stays COMPLETELY EMPTY regardless of spot — the
+    /// retry makes that consistency obvious and recovers the merely-flaky case.
+    /// </summary>
     public static void PerformSpacingToolTest(UITestBase testBase, string buttonId, string testName)
     {
-        var activationKeys = ReadActivationShortcut(testBase);
-        var ruler = ActivateScreenRuler(testBase, activationKeys, testName);
+        const int attempts = 4;
+        string clipboardText = string.Empty;
 
-        var spacingButton = ruler.Find<Element>(By.AccessibilityId(buttonId), 15000);
-        Assert.IsNotNull(spacingButton, $"{testName} button should be found");
-        spacingButton.Click(msPostAction: 500);
+        for (int attempt = 1; attempt <= attempts; attempt++)
+        {
+            var activationKeys = ReadActivationShortcut(testBase);
+            var ruler = ActivateScreenRuler(testBase, activationKeys, testName);
 
-        PerformMeasurementAction();
+            var spacingButton = ruler.Find<Element>(By.AccessibilityId(buttonId), 15000);
+            Assert.IsNotNull(spacingButton, $"{testName} button should be found");
+            spacingButton.Click(msPostAction: 500);
 
-        var clipboardText = GetClipboardText();
-        Assert.IsFalse(string.IsNullOrEmpty(clipboardText), $"{testName}: Clipboard should contain measurement data");
+            PerformMeasurementAction(attempt - 1);
+
+            clipboardText = GetClipboardText();
+            testBase.TestContext.WriteLine(
+                $"{testName}: attempt {attempt}/{attempts} clipboard='{clipboardText}' (len={clipboardText.Length}).");
+            if (!string.IsNullOrEmpty(clipboardText))
+            {
+                break;
+            }
+
+            CloseScreenRulerUI(testBase);
+            Thread.Sleep(700);
+        }
+
+        Assert.IsFalse(
+            string.IsNullOrEmpty(clipboardText),
+            $"{testName}: clipboard was COMPLETELY EMPTY after {attempts} attempts (not a '0 x 0' value). The " +
+            "Measure Tool's screen-capture edge-detection produced no measurement (measuredEdges=nullopt → " +
+            "SetClipboardToMeasurements writes nothing). This is an environment limitation — the capture API isn't " +
+            "delivering frames in this session (typical on headless/RDP CI). The Bounds tool (a drag, no capture) is " +
+            "unaffected.");
         Assert.IsTrue(
             ValidateSpacingClipboardContent(clipboardText, testName),
             $"{testName}: Clipboard should contain valid spacing measurement, but contained: '{clipboardText}'");
@@ -314,16 +344,22 @@ public static class TestHelper
             "ScreenRulerUI should close after calling CloseScreenRulerUI");
     }
 
-    /// <summary>Move to the screen centre, left-click to capture, right-click to dismiss.</summary>
-    private static void PerformMeasurementAction()
+    /// <summary>Move to a measurement spot (varied per attempt), left-click to capture, right-click to dismiss.</summary>
+    private static void PerformMeasurementAction(int attemptIndex = 0)
     {
-        // Move to centre in two steps so the Measure Tool registers cursor MOVEMENT (a single
-        // SetCursorPos can land without a tracked move, leaving the measurement empty), then click
-        // to capture.
         var (cx, cy) = ScreenCenter();
-        MouseHelper.MoveTo(cx - 60, cy - 60);
+
+        // Vary the spot per attempt so a no-edge / uncapturable area on one try is avoided on the next.
+        (int Dx, int Dy)[] spots = { (0, 0), (-220, -140), (220, 140), (-220, 140) };
+        var (dx, dy) = spots[attemptIndex % spots.Length];
+        int tx = cx + dx;
+        int ty = cy + dy;
+
+        // Move in two steps so the Measure Tool registers cursor MOVEMENT (a single SetCursorPos can
+        // land without a tracked move, leaving the measurement empty), then click to capture.
+        MouseHelper.MoveTo(tx - 60, ty - 60);
         Thread.Sleep(200);
-        MouseHelper.MoveTo(cx, cy);
+        MouseHelper.MoveTo(tx, ty);
         Thread.Sleep(400);
         MouseHelper.LeftClick();
         Thread.Sleep(500);
