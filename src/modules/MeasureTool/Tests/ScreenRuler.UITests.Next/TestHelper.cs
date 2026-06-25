@@ -254,28 +254,42 @@ public static class TestHelper
     }
 
     /// <summary>
-    /// Run a spacing-tool measurement and validate the clipboard, retrying the whole
-    /// activate → click → measure cycle (varying the spot) while the clipboard stays empty. Unlike the
-    /// free-form Bounds drag, the spacing tools depend on the Measure Tool's SCREEN-CAPTURE edge
-    /// detection: the click only copies when <c>measuredEdges</c> has a value, and that's set only when
-    /// a captured frame is processed. On a session where the capture API yields no frames (common on
-    /// headless/RDP CI, especially Win10) the clipboard stays COMPLETELY EMPTY regardless of spot — the
-    /// retry makes that consistency obvious and recovers the merely-flaky case.
+    /// Run a spacing-tool measurement and validate the clipboard. Unlike the free-form Bounds drag,
+    /// the spacing tools depend on the Measure Tool's SCREEN-CAPTURE edge detection: the click only
+    /// copies when <c>measuredEdges</c> has a value, and that's set only once a captured frame has been
+    /// processed. The FIRST capture session in an OS session pays a GPU/DWM/WGC cold-start, so on the
+    /// slower CI legs (Win10) the very first measuring click can fire before that first frame arrives —
+    /// which is why exactly ONE spacing test (whichever exercises the capture first) tends to be the
+    /// flaky one while the warm tests that follow pass. The fix is to (1) WARM the capture up before
+    /// measuring and (2) retry the measuring click IN PLACE — keeping the same capture session alive so
+    /// the warm-up accumulates. Closing/reopening the ruler between tries (the old approach) would
+    /// restart <c>MeasureToolUI</c> and reset the cold-start on every attempt, fighting the warm-up.
     /// </summary>
     public static void PerformSpacingToolTest(UITestBase testBase, string buttonId, string testName)
     {
-        const int attempts = 4;
+        var activationKeys = ReadActivationShortcut(testBase);
+        var ruler = ActivateScreenRuler(testBase, activationKeys, testName);
+        SelectSpacingTool(ruler, buttonId, testName);
+
+        // Spin the capture pipeline up before the first measuring click so a slow first frame on a
+        // cold (Win10) session doesn't lose the race.
+        WarmUpCapture();
+
+        const int attempts = 6;
         string clipboardText = string.Empty;
 
         for (int attempt = 1; attempt <= attempts; attempt++)
         {
-            var activationKeys = ReadActivationShortcut(testBase);
-            var ruler = ActivateScreenRuler(testBase, activationKeys, testName);
+            // The ruler only vanishes if a stray click dismissed it; re-arm defensively. This rare
+            // path re-warms, but the common path keeps the ONE capture session alive across attempts.
+            if (!IsScreenRulerUIOpen(testBase))
+            {
+                ruler = ActivateScreenRuler(testBase, activationKeys, testName);
+                SelectSpacingTool(ruler, buttonId, testName);
+                WarmUpCapture();
+            }
 
-            var spacingButton = ruler.Find<Element>(By.AccessibilityId(buttonId), 15000);
-            Assert.IsNotNull(spacingButton, $"{testName} button should be found");
-            spacingButton.Click(msPostAction: 500);
-
+            ClearClipboard();
             PerformMeasurementAction(attempt - 1);
 
             clipboardText = GetClipboardText();
@@ -286,17 +300,16 @@ public static class TestHelper
                 break;
             }
 
-            CloseScreenRulerUI(testBase);
-            Thread.Sleep(700);
+            // Stay in the same capture session and let more frames flow before retrying (growing back-off).
+            Thread.Sleep(300 + (attempt * 250));
         }
 
         Assert.IsFalse(
             string.IsNullOrEmpty(clipboardText),
-            $"{testName}: clipboard was COMPLETELY EMPTY after {attempts} attempts (not a '0 x 0' value). The " +
-            "Measure Tool's screen-capture edge-detection produced no measurement (measuredEdges=nullopt → " +
-            "SetClipboardToMeasurements writes nothing). This is an environment limitation — the capture API isn't " +
-            "delivering frames in this session (typical on headless/RDP CI). The Bounds tool (a drag, no capture) is " +
-            "unaffected.");
+            $"{testName}: clipboard was COMPLETELY EMPTY after {attempts} in-place attempts (not a '0 x 0' value). " +
+            "The Measure Tool's screen-capture edge-detection produced no measurement (measuredEdges=nullopt → " +
+            "SetClipboardToMeasurements writes nothing) even after warming the capture up — the capture API never " +
+            "delivered a frame in this session. The Bounds tool (a drag, no capture) is unaffected.");
         Assert.IsTrue(
             ValidateSpacingClipboardContent(clipboardText, testName),
             $"{testName}: Clipboard should contain valid spacing measurement, but contained: '{clipboardText}'");
@@ -305,6 +318,31 @@ public static class TestHelper
         Assert.IsTrue(
             WaitForScreenRulerUIToDisappear(testBase, 2000),
             $"{testName}: ScreenRulerUI should close after calling CloseScreenRulerUI");
+    }
+
+    /// <summary>Select a spacing tool on the toolbar by its automation id.</summary>
+    private static void SelectSpacingTool(Session ruler, string buttonId, string testName)
+    {
+        var spacingButton = ruler.Find<Element>(By.AccessibilityId(buttonId), 15000);
+        Assert.IsNotNull(spacingButton, $"{testName} button should be found");
+        spacingButton.Click(msPostAction: 500);
+    }
+
+    /// <summary>
+    /// Spin up the Measure Tool's screen-capture pipeline before the first measuring click. Moves the
+    /// cursor around the primary-monitor centre WITHOUT committing, so the WGC frame pool starts
+    /// delivering frames. The first capture session in an OS session pays a GPU/DWM cold-start that the
+    /// slower CI legs (Win10) can otherwise lose the race against — warming up here removes that race.
+    /// </summary>
+    private static void WarmUpCapture()
+    {
+        var (cx, cy) = ScreenCenter();
+        (int Dx, int Dy)[] path = { (-120, -80), (120, 80), (-80, 60), (0, 0) };
+        foreach (var (dx, dy) in path)
+        {
+            MouseHelper.MoveTo(cx + dx, cy + dy);
+            Thread.Sleep(300);
+        }
     }
 
     /// <summary>Run a bounds-tool measurement (drag a 100x100 box) and validate the clipboard output.</summary>
