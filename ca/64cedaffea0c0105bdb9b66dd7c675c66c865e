@@ -1,0 +1,25 @@
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/CommandBar.xaml.cs
+  s_c3cb78fa61c7bf::t_64569989838f61 159-162
+src/modules/cmdpal/Microsoft.CmdPal.UI/Dock/DockControl.xaml.cs
+  s_c3cb78fa61c7bf::t_64569989838f61 503-506
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/ContextMenu.xaml
+  s_c3cb78fa61c7bf::t_64569989838f61 32,80,137
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/ContextMenu.xaml.cs
+  s_c3cb78fa61c7bf::t_64569989838f61 5-6,33-41,118,127-128,130,132-155,247,257,305,312,399,401,406-409,411-412,414,417-421,423-426,428-429,432-434,436,439,441-443
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "ca64cedaffea0c0105bdb9b66dd7c675c66c865e",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb78fa61c7bf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6df5875c-6bd9-437d-bbaa-0f5f488f7660",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "tonythethompson <tonythethompson@hotmail.com>"
+    }
+  }
+}
