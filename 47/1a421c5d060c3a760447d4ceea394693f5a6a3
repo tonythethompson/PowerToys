@@ -1,0 +1,765 @@
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/App.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-60
+src/modules/peek/Peek.UI/PeekXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 6,24,39,48-51,76-88,111,367,369,384,389,392,394,406,409,425,514,519
+  s_c3cb78fa61c7bf::t_d725ae0a9d9cac 230,233-235,247,366,368,370-383,385-388,390-391,393,395-405,407-408,410-424,426-513,515-518,520,523,525
+src/common/UITestAutomation.Next/Element/Tab.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-17
+PowerToys.slnx
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 12,16
+  s_c3cb78fa61c7bf::t_f9da9dce83f8cf 57-60,64,197-200,211,215,729,733,766-769,821-824,1114-1117,1149-1150
+src/common/UITestAutomation.Next/ModuleConfigData.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-207
+src/modules/poweraccent/PowerAccent.Core.UnitTests/CalculationTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-148
+src/common/UITestAutomation.Next/Element/Pane.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-14
+.github/policies/resourceManagement.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 59-94,96,114-130,142,151-159
+  s_c3cb78fa61c7bf::t_902539b40dfbdb 160
+.github/skills/powertoys-verification/LICENSE.txt
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-201
+src/common/Common.UI.Controls/Controls/TransientSurface/TransientSurface.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-44
+doc/devdocs/modules/quickaccent.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 18,22-26,36-42
+  s_c3cb78fa61c7bf::t_e1ab9e030ff165 43,47-51,55-61,74-76,83-93,143-144
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/SearchBar.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 12,24,62-65
+  s_c3cb78fa61c7bf::t_63449d0cdd92f9 80-81,112-114,389-435,558-564
+src/common/UITestAutomation.Next/Element/RadioButton.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-31
+.github/skills/powertoys-verification/SKILL.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-331
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestBounds.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+.github/skills/ui-tests-migration/references/project-setup.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-173
+src/modules/MouseUtils/MouseHighlighter/MouseHighlighter.h
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 7-9,11-15
+  s_c3cb78fa61c7bf::t_44b73157bec225 16,28-33
+.github/skills/powertoys-verification/scripts/pt-foreground-guard.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-100
+.github/skills/powertoys-verification/scripts/pt-nonelevated.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-76
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/NowDockBandTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-160
+src/modules/poweraccent/PowerAccent.Core/PowerAccent.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 14-15,27,48-50,52-53
+  s_c3cb78fa61c7bf::t_78bd48c6d51aaa 75,83,91,107,109-124,127,129-133,140-147,243,249,272,277-283,398-399,402-404
+.pipelines/InstallWinAppCli.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-71
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/+ON1.PhotoRAW.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-598
+.github/skills/powertoys-verification/references/winapp-ui-testing.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-541
+.github/skills/powertoys-verification/references/modules/advanced-paste.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-33
+src/modules/peek/Peek.UI/Services/IUserSettings.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 5-6
+  s_c3cb78fa61c7bf::t_113e830aef5977 11-14,20-21
+src/common/UITestAutomation.Next/Element/CheckBox.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-31
+src/modules/cmdpal/ext/SamplePagesExtension/Pages/SampleLiveDetailsPage.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-103
+src/common/UITestAutomation.Next/WinappCli.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-401
+src/modules/cmdpal/Microsoft.CmdPal.UI/ToastWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 11-13,17-19,26-33,40-42,45-46,56-63,68,70-74,81,83,87-98,124,141,143,145,148,158,160,162
+  s_c3cb78fa61c7bf::t_11cbacf4c26c85 99-101,108,116-123,125-140,142,144,146-147,149-157,159,161
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/+Microsoft.OutlookForWindows.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-295
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/BlackmagicDesign.DaVinciResolve.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-821
+src/modules/poweraccent/PowerAccent.UI/SelectorViewModel.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-36
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/ScreenRuler.UITests.Next.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-47
+.github/skills/powertoys-verification/references/release-checklist/power-rename.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-44
+.github/skills/powertoys-verification/references/modules/README.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-114
+.github/skills/powertoys-verification/references/release-checklist/environment-variables.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-45
+src/modules/GrabAndMove/GrabAndMove/main.cpp
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 41,120-143,253-260,885-886,892-893
+  s_c3cb78fa61c7bf::t_66525ad25f3412 278-281,413-419,820-884,887-891,894-898,1119,1129-1132,1145-1156,1190,1201-1204,1217-1227,1234,1244,1346-1359,1362-1365,1374,1392-1405,1407-1414,1416-1441,1443,1458-1467,1484,1507-1512,1514-1520,1522-1527,1543-1552,1588,1596-1601
+src/common/UITestAutomation.Next/MouseHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-206
+src/common/UITestAutomation.Next/WindowControl.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-455
+.github/skills/powertoys-verification/references/release-checklist/index.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-15
+src/common/UITestAutomation.Next/By.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-49
+src/modules/previewpane/powerpreview/powerpreview.vcxproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 6
+doc/devdocs/watson-queries.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-25
+src/common/UITestAutomation.Next/Element/Thumb.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-17
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestSpacing.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+src/common/Common.UI.Controls/Controls/TransientSurface/TransientSurface.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-467
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/App.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-13
+.github/skills/powertoys-verification/references/release-checklist/advanced-paste.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-72
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestSpacingHorizontal.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+src/modules/cmdpal/Microsoft.CmdPal.UI/DeferredRootPageAccessor.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-20
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/app.manifest
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-24
+src/common/UITestAutomation.Next/DisplayHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-131
+.github/skills/powertoys-verification/scripts/pt-shared-events.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-133
+Directory.Packages.props
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 29
+  s_c3cb78fa61c7bf::t_894ce310f1d066 41,44,46,52-58,67,69,71,79,102,110,112-114,116,118,120,123,128-131,155
+src/common/UITestAutomation.Next/Element/TextBlock.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-20
+.github/skills/ui-tests-migration/references/patterns-and-pitfalls.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-410
+src/modules/cmdpal/Microsoft.CmdPal.UI/ToastWindow.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 7-8,10,14-55
+  s_c3cb78fa61c7bf::t_262ebdec6a43c3 56-65
+.github/skills/powertoys-verification/scripts/pt-explorer-contextmenu.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-439
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/TimeDateCommandsProvider.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 23-27,43-50
+  s_c3cb78fa61c7bf::t_e06d59bc667c1f 51-76,94,97,99,102,104-108,112-113
+.github/skills/powertoys-verification/scripts/pt-session-diagnose.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-51
+.github/skills/ui-tests-migration/LICENSE.txt
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-201
+src/common/Common.UI.Controls/Window/FlyoutWindowHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-220
+src/modules/colorPicker/ColorPicker.UITests/ColorPickerEndToEndTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-446
+src/common/UITestAutomation.Next/Element/Slider.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-41
+.github/skills/powertoys-verification/references/release-checklist/new-plus.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-33
+src/settings-ui/Settings.UI/SettingsXAML/OOBE/Views/ScoobeReleaseNotesPage.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 10,15,24,32-62,207,214,235-236
+  s_c3cb78fa61c7bf::t_c0806cf856f987 165-174,176,198-206,208-213,215-234,237
+.pipelines/installPowertoys.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 4-9
+  s_c3cb78fa61c7bf::t_811623487de946 10-11,17
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/IRootPageAccessor.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-21
+.github/skills/ui-tests-migration/references/api-mapping.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-171
+src/common/UITestAutomation.Next/Element/Window.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-13
+.github/skills/powertoys-verification/references/reporting-format.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-159
+src/modules/cmdpal/Microsoft.CmdPal.UI/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 5,84-88,121-122
+  s_c3cb78fa61c7bf::t_7c2442fde4a9f3 202,232-236,247-254,480-482,484,509-589,665-666,731,831-836,838-855,1040-1043,1093-1103,1322-1325,1641,1692-1702,1839-1841,1910,1912-1915,1919-1929
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-664
+.github/skills/powertoys-verification/references/environment-setup.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-143
+.github/skills/ui-tests-migration/SKILL.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-208
+src/modules/cmdpal/Microsoft.CmdPal.UI/Settings/ExtensionsPage.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 25,35-37
+  s_c3cb78fa61c7bf::t_9d6524eb01b2aa 38-51,67,69-75,77-78,80-88
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/ToastViewModel.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 13-21
+  s_c3cb78fa61c7bf::t_354859c4580d2b 22-33
+.github/skills/ui-tests-migration/templates/ModuleEndToEndTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-144
+src/modules/colorPicker/ColorPicker.UITests/ColorPicker.UITests.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-42
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-177
+src/settings-ui/Settings.UITests/Settings.UITests.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-42
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/AgileBits.1Password.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-226
+.github/skills/ui-tests-migration/references/ci-stability.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-207
+src/common/UITestAutomation.Next/WindowHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-189
+.github/skills/powertoys-verification/scripts/pt-state.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-111
+src/Common.Dotnet.FuzzTest.props
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 4-7
+  s_c3cb78fa61c7bf::t_32524f061a5497 8-9,11
+src/modules/keyboardmanager/dll/KeyboardManager.vcxproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 55-63,86,88
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/SettingsModel.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 14-15
+  s_c3cb78fa61c7bf::t_dc4972c6e7a63f 16-17,51,96-97,465-472
+.github/skills/powertoys-verification/references/release-checklist/image-resizer.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-44
+.pipelines/v2/templates/pipeline-ui-tests-full-build.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 5-8
+  s_c3cb78fa61c7bf::t_a835eb19e441f9 9,61,73,86
+.github/skills/powertoys-verification/references/explorer-context-menu-flow.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-226
+Directory.Build.targets
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 7-23
+  s_c3cb78fa61c7bf::t_4fdafcd8f8ce5a 24-29
+.github/skills/powertoys-verification/scripts/pt-shell-verbs.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-66
+src/common/Common.UI.Controls/Controls/TransientSurface/Transition.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-35
+src/common/UITestAutomation/SessionHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 50-54
+  s_c3cb78fa61c7bf::t_1e69adafcdef71 366-381,385-397,402-448
+src/modules/MouseUtils/MouseHighlighter/MouseHighlighter.cpp
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 9-10,53-64,88-97,111-117,121-126,142-146,239-251,257-266,306-309,314-317,324-335,346,350,356-363,426-449,475-496,519-536,551-554,557-575,577,585-588,591-608,610,652,656-661,689-698,769,780-785,787,793,795,797,887,889,905,908,910,927,929,933,935,939,941,991,995,997,999,1001-1002,1048,1050,1058,1060,1095,1114,1117,1134,1139,1191,1203,1205,1211,1213,1215,1218,1221,1223-1225,1227,1229,1242,1244,1248,1250,1254,1256,1344,1394,1402,1404,1406,1409,1412,1414-1416,1418,1420
+  s_c3cb78fa61c7bf::t_7c6c62558b6827 786,788-792,794,796,883-886,888,890-904,906-907,909,911-926,928,930-932,934,936-938,940,942-990,992-994,996,998,1000,1003-1047,1049,1051-1057,1059,1061-1094,1096-1113,1115-1116,1118-1133,1135-1138,1140-1190,1192-1202,1204,1206-1210,1212,1214,1216-1217,1219-1220,1222,1226,1228,1230-1241,1243,1245-1247,1249,1251-1253,1255,1257-1343,1345-1393,1395-1401,1403,1405,1407-1408,1410-1411,1413,1417,1419,1421-1424
+.github/skills/powertoys-verification/scripts/pt-sendinput-chord.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-94
+src/common/UITestAutomation.Next/KeyboardHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-204
+src/common/UITestAutomation.Next/Element/TextBox.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-46
+src/common/UITestAutomation.Next/Session.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-449
+.github/skills/powertoys-verification/references/scenarios/module-checklist.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-42
+.github/skills/powertoys-verification/scripts/pt-admin-probe.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-76
+src/modules/poweraccent/PowerAccent.UI/PowerAccent.UI.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 5-106,110
+  s_c3cb78fa61c7bf::t_a3543c623b6949 107-109
+src/common/UITestAutomation.Next/UITestBase.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-476
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/SelectorControl.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-141
+src/settings-ui/Settings.UITests/SettingsTests.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-41
+src/common/Common.UI.Controls/Window/TransparentWindow/TransparentWindow.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-240
+src/common/UITestAutomation.Next/Element/Element.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-467
+.github/skills/powertoys-verification/references/scenarios/index.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-80
+src/modules/cmdpal/Microsoft.CmdPal.UI/Pages/ShellPage.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 42,72-77,90,97-121,125-127,130-132,140,160-164,663,665,668,672,675-676,679,681,684,687,691,694,1019,1022,1122,1128,1130-1132,1137,1163,1165,1167,1171,1202,1205
+  s_c3cb78fa61c7bf::t_5f1b134f2dbc39 269,476-477,591-594,596,611-613,615,662,664,666-667,669-671,673-674,677-678,680,682-683,685-686,688-690,692-693,695,760-764,824,956-966,970-977,983,985,1013-1014,1016,1020-1021,1023-1024,1026-1041,1043-1045,1121,1123-1127,1129,1133-1136,1138,1156-1162,1164,1166,1168-1170,1172,1199-1201,1203-1204
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/DiagnosticLogger.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-66
+src/modules/poweraccent/PowerAccent.Common/PowerAccent.Common.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 3
+  s_c3cb78fa61c7bf::t_8bc0ca92910620 12-15
+.github/skills/powertoys-verification/scripts/pt-explorer-com.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-136
+.github/skills/powertoys-verification/references/release-checklist/file-locksmith.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-29
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/TimeDateCommandsProviderTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 14-15
+  s_c3cb78fa61c7bf::t_7e13318bc389cf 93-114
+src/common/UITestAutomation.Next/Element/Button.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-13
+src/modules/cmdpal/Microsoft.CmdPal.Common/Helpers/ShellArgumentBuilder.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-98
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestShortcutActivation.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-64
+src/common/UITestAutomation.Next/UITestAutomation.Next.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-56
+src/modules/ZoomIt/ZoomIt/Zoomit.cpp
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 177-178
+  s_c3cb78fa61c7bf::t_e4aba5315e9be3 217,219-220,3591-3594,3597-3599,4828-4829,5064,5066,5528,5530,5540,5542,5611,5618-5626,5630,5637-5645,5681-5682,5685-5686,6777-6815,6870-6893,6899-6933,6965,7210-7231,7233,7251-7252,7752,7754,7805,7811-7818,7822,7828-7835,10422,10424,10487,10496-10506,10510,10519-10529
+src/common/UITestAutomation.Next/MonitorInfo.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-104
+src/common/UITestAutomation/ModuleInfo.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 29-37,41-56,58-65,68
+  s_c3cb78fa61c7bf::t_1c1b9704762706 69-102
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/NowDockBand.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-134
+src/settings-ui/Settings.UI/Helpers/TitleBarHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-44
+.github/skills/ui-tests-migration/references/framework-differences.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-167
+src/modules/powerdisplay/PowerDisplay.Lib.UnitTests/MouseWheelIncrementSettingsTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-72
+.pipelines/v2/templates/job-test-project.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 93-109,111-114,122,128-135,156,170
+  s_c3cb78fa61c7bf::t_4fe6bd443ce84f 167-169,171-174,180-278,280-300
+src/common/UITestAutomation.Next/ScreenCapture.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-128
+NOTICE.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 15
+  s_c3cb78fa61c7bf::t_b1f49b22b41803 1553-1615,1656
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/ContentFormControl.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 11,13,27
+  s_c3cb78fa61c7bf::t_8299f0434a40a6 101,105,122-124,285-328
+src/common/UITestAutomation.Next/ScreenRecording.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-237
+src/modules/poweraccent/PowerAccent.UI/Program.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1,10,18,25,33-39,41,43-44,102,104
+  s_c3cb78fa61c7bf::t_46e84fd8f581f6 45-48,50,53,58,69,71-72,74-76,80,87-95,98-101,103
+src/settings-ui/Settings.UI/ViewModels/MouseUtilsViewModel.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 80-85
+  s_c3cb78fa61c7bf::t_3de2109c5affe0 617-674,747-816,1351-1356
+.github/skills/ui-tests-migration/templates/app.manifest
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-33
+src/common/UITestAutomation.Next/SettingsConfigHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-138
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Common.UnitTests/Helpers/ShellArgumentBuilderTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+.github/skills/powertoys-verification/references/modules/command-palette.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-54
+.github/skills/powertoys-verification/references/modules/image-resizer.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-82
+src/common/UITestAutomation.Next/Element/NavigationViewItem.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-29
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.PerformanceMonitor/PerformanceMonitorCommandsProvider.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 22-31
+  s_c3cb78fa61c7bf::t_462cbc968ddaf8 122-129,131-141,153-191
+.github/skills/ui-tests-migration/references/porting-workflow.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-187
+src/modules/MeasureTool/Tests/ScreenRuler.UITests.Next/TestSpacingVertical.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+src/settings-ui/Settings.UITests/SettingsNavigationSmokeTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-153
+src/common/Common.UI.Controls/Backdrops/AlwaysActiveDesktopAcrylicBackdrop.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 32-37,43,49
+  s_c3cb78fa61c7bf::t_0e6e6f9e9c274a 38-40,44-48,50-55,66-69,98-108
+.github/skills/ui-tests-migration/templates/TestHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-218
+.github/skills/ui-tests-migration/templates/Module.UITests.Next.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-54
+src/common/UITestAutomation.Next/Element/ToggleSwitch.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-32
+.github/skills/powertoys-verification/references/modules/power-rename.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-135
+src/common/Common.UI.Controls/Window/TransparentWindow/ShowingEventArgs.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-26
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Settings/EquatableList`1.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-70
+src/modules/cmdpal/Microsoft.CmdPal.UI/Settings/SettingsWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 33-42
+  s_c3cb78fa61c7bf::t_af4663d6c22b45 43,91,100,145,148,151,154,157,160,174,176-177,179-189,191,405,410,415,421,427,433,438,444
+src/modules/cmdpal/Tests/Microsoft.CmdPal.UI.ViewModels.UnitTests/DetailsViewModelTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-137
+src/common/UITestAutomation.Next/EnvironmentConfig.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-40
+src/modules/poweraccent/PowerAccent.Core.UnitTests/PowerAccent.Core.UnitTests.csproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-34
+src/modules/colorPicker/ColorPicker.UITests/AssemblyInfo.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-10
+src/common/UITestAutomation.Next/ClipboardHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-89
+src/modules/colorPicker/ColorPicker.UITests/ColorPickerUITest.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-16
+src/common/UITestAutomation.Next/SessionHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-384
+src/modules/MouseUtils/MouseHighlighter/dllmain.cpp
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 24-29
+  s_c3cb78fa61c7bf::t_9685534a19d0db 401-484
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/MainWindow.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-19
+src/modules/poweraccent/PowerAccent.UI/PowerAccentXAML/SelectorControl.xaml.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-41
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/Zoom.Zoom.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-126
+src/common/UITestAutomation.Next/ElevationHelper.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-71
+src/modules/imageresizer/dll/ImageResizerExt.vcxproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 6
+src/runner/runner.vcxproj
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 4
+.github/skills/powertoys-verification/references/pre-flight.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-122
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/Obsidian.Obsidian.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-196
+src/settings-ui/Settings.UI/SettingsXAML/Views/MouseUtilsPage.xaml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 11
+  s_c3cb78fa61c7bf::t_85f555bf5c6e1c 269,271,273-280,282,285,288-291,294,303-306,315-318,327-362
+src/modules/cmdpal/Tests/Microsoft.CmdPal.UI.ViewModels.UnitTests/EquatableListTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-105
+src/settings-ui/Settings.UI/Strings/en-us/Resources.resw
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 3-5,7-10,12,14,29-30,32-36,38-40,42-44,46,48,51,53,58
+  s_c3cb78fa61c7bf::t_fa593f57d39e25 1152-1157,2824-2842,3159-3166,3365-3366,3380-3383,3428-3435,3594-3599,4461,4468,4472,4476,4563,4971-4972,4974-4975,5235,5246-5249,5590-5595
+src/common/UITestAutomation.Next/Windows.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-222
+.github/skills/powertoys-verification/references/modules/peek.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-120
+src/modules/cmdpal/Tests/Microsoft.CmdPal.UI.ViewModels.UnitTests/DockSettingsEqualityTests.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-98
+src/common/UITestAutomation.Next/Element/ComboBox.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-52
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/DetailsViewModel.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 10,12-14,30-98,100,103,115,119,146,149
+  s_c3cb78fa61c7bf::t_f5a97f3405af91 99,101-102,104,113-114,116-118,120,145,147-148,150-152,154-156
+src/common/UITestAutomation.Next/Element/Custom.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-17
+.github/skills/powertoys-verification/references/modules/new-plus.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-76
+.github/skills/powertoys-verification/references/scenarios/pr-validation.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-210
+.github/skills/powertoys-verification/scripts/pt-clipboard-diff.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-61
+.github/skills/powertoys-verification/scripts/pt-cmdpal-recycle.ps1
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-99
+.github/skills/powertoys-verification/references/release-checklist/peek.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-59
+src/modules/ShortcutGuide/ShortcutGuide.Ui/Assets/ShortcutGuide/Manifests/+Godot.Godot.en-US.yml
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-1939
+src/common/UITestAutomation.Next/FRAMEWORK-PARITY-PLAN.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-162
+src/common/Common.UI.Controls/Window/TransparentWindow/HidingEventArgs.cs
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-61
+.github/skills/powertoys-verification/references/modules/file-locksmith.md
+  s_c3cb78fa61c7bf::t_be0c5e74d798ff 1-100
+.github/actions/spell-check/expect.txt
+  s_c3cb78fa61c7bf::t_49683d6583786d 122,139,544,842,1239-1240,2088-2089,2189
+.github/copilot-instructions.md
+  s_c3cb78fa61c7bf::t_4e2d2c1a230d13 33-38
+.github/skills/wpf-to-winui3-migration/SKILL.md
+  s_c3cb78fa61c7bf::t_3510d5b261567f 3
+.github/workflows/auto-labeler.yml
+  s_c3cb78fa61c7bf::t_9de868db180b0e 76-82
+.github/workflows/dependency-review.yml
+  s_c3cb78fa61c7bf::t_58590a56e70ccd 26
+.pipelines/ESRPSigning_core.json
+  s_c3cb78fa61c7bf::t_089387e72cb764 214-217,219
+.pipelines/v2/templates/job-build-project.yml
+  s_c3cb78fa61c7bf::t_257f77647ed7a3 174-178
+.pipelines/v2/templates/pipeline-ui-tests-automation.yml
+  s_c3cb78fa61c7bf::t_5842952e753af8 29,41-44,48,54-55
+.vsconfig
+  s_c3cb78fa61c7bf::t_29ebc7571a42a2 9-10,20-21
+AGENTS.md
+  s_c3cb78fa61c7bf::t_c0d470c3aa7778 96
+Cpp.Build.props
+  s_c3cb78fa61c7bf::t_d8c6fa1f89af2f 69-72
+doc/devdocs/development/localization.md
+  s_c3cb78fa61c7bf::t_bc06841cd49f3d 55
+doc/devdocs/readme.md
+  s_c3cb78fa61c7bf::t_9937d48b15a3c1 14
+doc/devdocs/tools/fuzzingtesting.md
+  s_c3cb78fa61c7bf::t_ef1190f3f08d1b 31-32,68
+"doc/specs/WinGet Manifest Keyboard Shortcuts schema.md"
+  s_c3cb78fa61c7bf::t_0bcb7b3e689b40 112,129-132
+doc/thirdPartyRunPlugins.md
+  s_c3cb78fa61c7bf::t_1774b57c40ff61 57
+src/ActionRunner/actionRunner.vcxproj
+  s_c3cb78fa61c7bf::t_343968a14ec8d1 6
+src/Update/PowerToys.Update.vcxproj
+  s_c3cb78fa61c7bf::t_851b4c3a443b7f 6
+src/common/COMUtils/packages.config
+  s_c3cb78fa61c7bf::t_4cd63ae8e7b899 3-4
+src/common/Common.UI.Controls/Themes/Generic.xaml
+  s_c3cb78fa61c7bf::t_9795fd2bd380e9 7
+src/common/UITestAutomation/ModuleConfigData.cs
+  s_c3cb78fa61c7bf::t_ff37929694deb3 156-166
+src/modules/AdvancedPaste/AdvancedPasteModuleInterface/AdvancedPasteModuleInterface.vcxproj
+  s_c3cb78fa61c7bf::t_69b4f2fc21eb07 6
+src/modules/EnvironmentVariables/EnvironmentVariables/EnvironmentVariablesXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_aca670ce28943f 35-45
+src/modules/EnvironmentVariables/EnvironmentVariablesModuleInterface/EnvironmentVariablesModuleInterface.vcxproj
+  s_c3cb78fa61c7bf::t_40576579a8e37b 6
+src/modules/FileLocksmith/FileLocksmithContextMenu/FileLocksmithContextMenu.vcxproj
+  s_c3cb78fa61c7bf::t_abced24e3250ef 6
+src/modules/FileLocksmith/FileLocksmithExt/FileLocksmithExt.vcxproj
+  s_c3cb78fa61c7bf::t_207daf340dcea8 6
+src/modules/FileLocksmith/FileLocksmithUI/FileLocksmithXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_91791617a7c679 28-36
+src/modules/Hosts/Hosts/HostsXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_d1496808f75db9 36-44
+src/modules/Hosts/HostsModuleInterface/HostsModuleInterface.vcxproj
+  s_c3cb78fa61c7bf::t_b28ed132a98de9 6
+src/modules/MouseWithoutBorders/ModuleInterface/MouseWithoutBordersModuleInterface.vcxproj.filters
+  s_c3cb78fa61c7bf::t_d4e3b96d9ae09d 42
+src/modules/MouseWithoutBorders/ModuleInterface/packages.config
+  s_c3cb78fa61c7bf::t_7db3b97a066a42 3-4
+src/modules/NewPlus/NewShellExtensionContextMenu.win10/NewPlus.ShellExtension.win10.vcxproj
+  s_c3cb78fa61c7bf::t_f1b8c6f0f46821 6
+src/modules/NewPlus/NewShellExtensionContextMenu.win10/resources.resx
+  s_c3cb78fa61c7bf::t_675b58a7552977 122
+src/modules/NewPlus/NewShellExtensionContextMenu/NewShellExtensionContextMenu.vcxproj
+  s_c3cb78fa61c7bf::t_29a6d19db6eaac 6
+src/modules/NewPlus/NewShellExtensionContextMenu/resources.resx
+  s_c3cb78fa61c7bf::t_033bc67936c12d 122
+src/modules/PowerOCR/PowerOCRModuleInterface/PowerOCRModuleInterface.vcxproj
+  s_c3cb78fa61c7bf::t_25c85572dfcc31 6
+src/modules/ShortcutGuide/ShortcutGuide.Ui/ShortcutGuideXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_98c44bdcb8e744 60-70
+src/modules/ShortcutGuide/ShortcutGuideModuleInterface/ShortcutGuideModuleInterface.vcxproj
+  s_c3cb78fa61c7bf::t_15f7376fc8f067 6
+src/modules/Workspaces/WorkspacesLauncher/WorkspacesLauncher.vcxproj
+  s_c3cb78fa61c7bf::t_92398ed94cceee 7
+src/modules/Workspaces/WorkspacesSnapshotTool/WorkspacesSnapshotTool.vcxproj
+  s_c3cb78fa61c7bf::t_a6daa13499afce 7
+src/modules/Workspaces/WorkspacesWindowArranger/WorkspacesWindowArranger.vcxproj
+  s_c3cb78fa61c7bf::t_a327bc7ea7ea5f 7
+src/modules/ZoomIt/ZoomIt/ZoomIt.rc
+  s_c3cb78fa61c7bf::t_05b087a8e7a047 124-125,131,139-140,142,145,148,151,153,155,157-160,163-165,168-169,172-175,184-185,189,192,194,196,198,200,202-204,217,221-226,228-229,257-261,264,268-285,287-289,292,297-299,301-313,316,320-327,330,334-340,343,347-355,360,363-364,412,434,448,456,461-466,470,472,477,483
+src/modules/ZoomIt/ZoomIt/ZoomItSettings.h
+  s_c3cb78fa61c7bf::t_9a4647447148ec 20,22,85,87
+src/modules/ZoomIt/ZoomIt/resource.h
+  s_c3cb78fa61c7bf::t_4e5318e90ae62f 140-141,156-157
+src/modules/ZoomIt/ZoomItSettingsInterop/ZoomItSettings.cpp
+  s_c3cb78fa61c7bf::t_6836c171782800 73,76
+src/modules/alwaysontop/AlwaysOnTop/AlwaysOnTop.vcxproj
+  s_c3cb78fa61c7bf::t_e5d1a8ff26d522 8
+src/modules/alwaysontop/AlwaysOnTop/WindowBorder.cpp
+  s_c3cb78fa61c7bf::t_d7d316016f3cc8 163
+src/modules/cmdpal/Microsoft.CmdPal.Common/Services/HttpCaching/HttpCachingClient.cs
+  s_c3cb78fa61c7bf::t_84d39ee706ad8c 97
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Commands/BuiltInsCommandProvider.cs
+  s_c3cb78fa61c7bf::t_f1f3df5395cc7b 16,44,46,54-55
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Commands/MainListPage.cs
+  s_c3cb78fa61c7bf::t_6adfeb5343019c 149,169-176,448,787-788
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Dock/DockViewModel.cs
+  s_c3cb78fa61c7bf::t_2f205b3f255982 86-90
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Gallery/ExtensionGalleryItemViewModel.cs
+  s_c3cb78fa61c7bf::t_a6b4410ab34261 108-114
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/IRootPageService.cs
+  s_c3cb78fa61c7bf::t_ff9375d5136746 7
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/ListItemViewModel.cs
+  s_c3cb78fa61c7bf::t_479b9206338e64 161,167
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Messages/PerformCommandMessage.cs
+  s_c3cb78fa61c7bf::t_7a8d9ab1f4e161 32-38
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Messages/ShowToastMessage.cs
+  s_c3cb78fa61c7bf::t_9f5805e517c284 7-10
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Services/WinRTExtensionService.cs
+  s_c3cb78fa61c7bf::t_23648dd825aafb 544-546
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/Settings/DockSettings.cs
+  s_c3cb78fa61c7bf::t_e035fdac0e5eb8 51-54,65,69-70,73,77-78,81,91,95-96,105,109-110,198-202,206-212,217-223,228-232
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/SettingsViewModel.cs
+  s_c3cb78fa61c7bf::t_2708984a15ebf6 135-146
+src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels/ShellViewModel.cs
+  s_c3cb78fa61c7bf::t_32e82e99f39a0d 58-69,301-305,507-527
+src/modules/cmdpal/Microsoft.CmdPal.UI/App.xaml.cs
+  s_c3cb78fa61c7bf::t_a4067e76ff0de7 274-276
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/BlurImageControl.cs
+  s_c3cb78fa61c7bf::t_c7cc9f59cb5803 97,383-389,391,395-396
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/CmdPalMainControl.xaml.cs
+  s_c3cb78fa61c7bf::t_6489b90e1fd1a7 129-138
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/SearchBar.xaml
+  s_c3cb78fa61c7bf::t_bf102a58be8908 98-102
+src/modules/cmdpal/Microsoft.CmdPal.UI/Dock/DockItemControl.xaml
+  s_c3cb78fa61c7bf::t_ae1269938dcf79 51
+src/modules/cmdpal/Microsoft.CmdPal.UI/Dock/DockWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_2d72f8ddc63629 222-226
+src/modules/cmdpal/Microsoft.CmdPal.UI/Dock/DockWindowManager.cs
+  s_c3cb78fa61c7bf::t_4eaaad458edfa7 29-31,223-230
+src/modules/cmdpal/Microsoft.CmdPal.UI/NativeMethods.txt
+  s_c3cb78fa61c7bf::t_29fdb2bfa7b098 108
+src/modules/cmdpal/Microsoft.CmdPal.UI/Pages/ShellPage.xaml
+  s_c3cb78fa61c7bf::t_cb7a045bdda8fd 356,605
+src/modules/cmdpal/Microsoft.CmdPal.UI/Services/IHostWindow.cs
+  s_c3cb78fa61c7bf::t_36cf5e38bcab8a 12-16
+src/modules/cmdpal/Microsoft.CmdPal.UI/Settings/ExtensionGalleryItemPage.xaml
+  s_c3cb78fa61c7bf::t_6d7c8eddfa9952 235,335,368
+src/modules/cmdpal/Microsoft.CmdPal.UI/Settings/GeneralPage.xaml
+  s_c3cb78fa61c7bf::t_bd92f42fbea079 121-142
+src/modules/cmdpal/Microsoft.CmdPal.UI/Settings/GeneralPage.xaml.cs
+  s_c3cb78fa61c7bf::t_c19769495f5aeb 103-108
+src/modules/cmdpal/Microsoft.CmdPal.UI/Strings/en-us/Resources.resw
+  s_c3cb78fa61c7bf::t_caf4e813ba2b6d 299-323,550-561,608-610
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/AvailableResultsListTests.cs
+  s_c3cb78fa61c7bf::t_f78379bea75c01 16-17
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/FallbackTimeDateItemTests.cs
+  s_c3cb78fa61c7bf::t_fd3a9b453be379 15-16
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/Microsoft.CmdPal.Ext.TimeDate.UnitTests.csproj
+  s_c3cb78fa61c7bf::t_adb9b013560cf3 8
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/QueryTests.cs
+  s_c3cb78fa61c7bf::t_ab712b530d527a 18-19,169,204,221
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/ResultHelperTests.cs
+  s_c3cb78fa61c7bf::t_07e3d54d0e3ec2 15-16,44-45,60,63,74-75,95,118-119,140-141
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/Settings.cs
+  s_c3cb78fa61c7bf::t_4f3f0174608882 16,25,27,33,46-47
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/StringParserTests.cs
+  s_c3cb78fa61c7bf::t_b30cbce972e312 15-16
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/TimeAndDateHelperTests.cs
+  s_c3cb78fa61c7bf::t_8c317ced80942d 15-16
+src/modules/cmdpal/Tests/Microsoft.CmdPal.Ext.TimeDate.UnitTests/TimeDateCalculatorTests.cs
+  s_c3cb78fa61c7bf::t_5cc4855a6ca119 18-19,72
+src/modules/cmdpal/Tests/Microsoft.CmdPal.UI.ViewModels.UnitTests/ExtensionGalleryItemViewModelTests.cs
+  s_c3cb78fa61c7bf::t_2656cb41dfb974 122,135-160
+src/modules/cmdpal/doc/initial-sdk-spec/initial-sdk-spec.md
+  s_c3cb78fa61c7bf::t_3b2594e65209fd 583-586,714-722
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.Apps/Programs/Win32Program.cs
+  s_c3cb78fa61c7bf::t_7daba58822ac21 25,29-30,1124-1142
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.Bookmark/Helpers/CommandLauncher.cs
+  s_c3cb78fa61c7bf::t_030119049960c3 8,28
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.Bookmark/Microsoft.CmdPal.Ext.Bookmarks.csproj
+  s_c3cb78fa61c7bf::t_2d15ed513076c6 14
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.PerformanceMonitor/PerformanceMonitorDisabledPage.cs
+  s_c3cb78fa61c7bf::t_b7d1ffdf3522eb 15,17
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.PerformanceMonitor/PerformanceWidgetsPage.cs
+  s_c3cb78fa61c7bf::t_31fad2c3db41d1 96,137-155,290-294
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.PerformanceMonitor/Strings/en-US/Resources.resw
+  s_c3cb78fa61c7bf::t_b2c2f3d6aa04e1 202
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.Shell/Helpers/ShellListPageHelpers.cs
+  s_c3cb78fa61c7bf::t_92e9a585212c52 5,45
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/FallbackTimeDateItem.cs
+  s_c3cb78fa61c7bf::t_9604829c996773 32-33,35-36,38-39,41,56
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Helpers/AvailableResult.cs
+  s_c3cb78fa61c7bf::t_ecd38e1d30c4d9 13,18,23,28,40
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Helpers/ISettingsInterface.cs
+  s_c3cb78fa61c7bf::t_44eb2acbc0c2d2 23-24
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Helpers/ResultHelper.cs
+  s_c3cb78fa61c7bf::t_db4d8e03a57618 20
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Helpers/SettingsManager.cs
+  s_c3cb78fa61c7bf::t_1e6b26ce57102b 90-95,152-153,156,172
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Microsoft.CmdPal.Ext.TimeDate.csproj
+  s_c3cb78fa61c7bf::t_ac373ac460f605 8
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Properties/Resources.Designer.cs
+  s_c3cb78fa61c7bf::t_fdb200645fa90f 837-854
+src/modules/cmdpal/ext/Microsoft.CmdPal.Ext.TimeDate/Properties/Resources.resx
+  s_c3cb78fa61c7bf::t_c2e376abaf36d2 270-275
+src/modules/cmdpal/ext/SamplePagesExtension/Pages/SampleToastsPage.cs
+  s_c3cb78fa61c7bf::t_bcb0391457507c 82-121
+src/modules/cmdpal/ext/SamplePagesExtension/SamplesListPage.cs
+  s_c3cb78fa61c7bf::t_d7ab3475d98d52 32-36
+src/modules/cmdpal/extensionsdk/Microsoft.CommandPalette.Extensions.Toolkit/Commands/ShowFileInFolderCommand.cs
+  s_c3cb78fa61c7bf::t_5609271794d8d4 30
+src/modules/cmdpal/extensionsdk/Microsoft.CommandPalette.Extensions.Toolkit/ToastArgs.cs
+  s_c3cb78fa61c7bf::t_cd4aae62ac14fe 7,12-15
+src/modules/cmdpal/extensionsdk/Microsoft.CommandPalette.Extensions/Microsoft.CommandPalette.Extensions.idl
+  s_c3cb78fa61c7bf::t_2be2b796119887 100-104
+src/modules/colorPicker/ColorPicker/ColorPicker.vcxproj
+  s_c3cb78fa61c7bf::t_f2a0eefde9cc86 6
+src/modules/colorPicker/ColorPickerUI/Views/MainView.xaml
+  s_c3cb78fa61c7bf::t_2eaee80d432557 29-42
+src/modules/fancyzones/FancyZonesLib/FancyZones.cpp
+  s_c3cb78fa61c7bf::t_7bb3b63dfb81fc 869-876,893-894,1107-1109
+src/modules/fancyzones/FancyZonesLib/FancyZonesLib.vcxproj
+  s_c3cb78fa61c7bf::t_d3e805f14920ea 6
+src/modules/fancyzones/FancyZonesLib/OnThreadExecutor.cpp
+  s_c3cb78fa61c7bf::t_52f952d2a5f0ca 51-58
+src/modules/fancyzones/FancyZonesLib/WorkArea.cpp
+  s_c3cb78fa61c7bf::t_c1cc84c1493f2e 118-122
+src/modules/fancyzones/FancyZonesLib/ZonesOverlay.cpp
+  s_c3cb78fa61c7bf::t_2f55374b4a87c2 343-346,348-354
+src/modules/imageresizer/ImageResizerContextMenu/ImageResizerContextMenu.vcxproj
+  s_c3cb78fa61c7bf::t_14de21c01e07ca 6
+src/modules/keyboardmanager/KeyboardManagerEditor/KeyboardManagerEditor.vcxproj
+  s_c3cb78fa61c7bf::t_f5b61ea5dcca33 166,170,183
+src/modules/keyboardmanager/KeyboardManagerEditor/packages.config
+  s_c3cb78fa61c7bf::t_18dca1376270df 6
+src/modules/keyboardmanager/KeyboardManagerEditorLibrary/KeyboardManagerEditorLibrary.vcxproj
+  s_c3cb78fa61c7bf::t_047729f5326525 103,116,119
+src/modules/keyboardmanager/KeyboardManagerEditorLibrary/packages.config
+  s_c3cb78fa61c7bf::t_4a92e50c1292d0 5
+src/modules/launcher/Microsoft.Launcher/Microsoft.Launcher.vcxproj
+  s_c3cb78fa61c7bf::t_668b356827f29d 7
+src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.VSCodeWorkspaces/WorkspacesHelper/VSCodeWorkspacesApi.cs
+  s_c3cb78fa61c7bf::t_742bbcc6d81d44 36-58,64-66,68-69
+src/modules/peek/Peek.FilePreviewer/Controls/AudioControl.xaml.cs
+  s_c3cb78fa61c7bf::t_0ee04199a3972b 48-52
+src/modules/peek/Peek.FilePreviewer/Controls/BrowserControl.xaml.cs
+  s_c3cb78fa61c7bf::t_37b63a71eb8ac8 202-207
+src/modules/peek/Peek.FilePreviewer/FilePreview.xaml.cs
+  s_c3cb78fa61c7bf::t_ecab47051ec8fe 324-329
+src/modules/peek/Peek.UI/Native/NativeMethods.cs
+  s_c3cb78fa61c7bf::t_538634fe3969c1 134-164
+src/modules/peek/Peek.UI/Services/UserSettings.cs
+  s_c3cb78fa61c7bf::t_d87563c789d229 39-40,45-46,50-61
+src/modules/poweraccent/PowerAccent.Common/CharacterMappings.cs
+  s_c3cb78fa61c7bf::t_c2bca47f4ee72a 65,76,79,86-106,392-413,415-417,741-742
+src/modules/poweraccent/PowerAccent.Common/Language.cs
+  s_c3cb78fa61c7bf::t_a7ef38b81bbc09 10-11
+src/modules/poweraccent/PowerAccent.Core/PowerAccent.Core.csproj
+  s_c3cb78fa61c7bf::t_92eb754ce9e192 27-33
+src/modules/poweraccent/PowerAccent.Core/Services/SettingsService.cs
+  s_c3cb78fa61c7bf::t_ff745d0d82dc0c 62-64,202-203
+src/modules/poweraccent/PowerAccent.Core/Tools/WindowsFunctions.cs
+  s_c3cb78fa61c7bf::t_4d16a67b1a6d9b 91-124,144-145
+src/modules/poweraccent/PowerAccentKeyboardService/KeyboardListener.cpp
+  s_c3cb78fa61c7bf::t_eb10436667c619 99-103,131-141,200-218,237-239,251-258,294-295,297-303,308-314,336-340
+src/modules/poweraccent/PowerAccentKeyboardService/KeyboardListener.h
+  s_c3cb78fa61c7bf::t_8fd236323a6feb 14,22,44,54
+src/modules/poweraccent/PowerAccentKeyboardService/KeyboardListener.idl
+  s_c3cb78fa61c7bf::t_439dc1d3c0b324 86
+src/modules/poweraccent/PowerAccentKeyboardService/PowerAccentKeyboardService.vcxproj
+  s_c3cb78fa61c7bf::t_9ac8b9bffaab45 49
+src/modules/poweraccent/PowerAccentModuleInterface/dllmain.cpp
+  s_c3cb78fa61c7bf::t_a1f1bcb41fa872 62
+src/modules/powerdisplay/PowerDisplay/Helpers/WindowHelper.cs
+  s_c3cb78fa61c7bf::t_0a1a8327eceab3 11
+src/modules/powerdisplay/PowerDisplay/PowerDisplayXAML/IdentifyWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_347cab7d4c2ef8 6
+src/modules/powerdisplay/PowerDisplay/PowerDisplayXAML/MainWindow.xaml
+  s_c3cb78fa61c7bf::t_a05520cf3bee6e 238,528,559,589
+src/modules/powerdisplay/PowerDisplay/ViewModels/MainViewModel.Settings.cs
+  s_c3cb78fa61c7bf::t_cdcc1837bc5586 125
+src/modules/powerdisplay/PowerDisplay/ViewModels/MainViewModel.cs
+  s_c3cb78fa61c7bf::t_74747d5ccc5c7b 96,133-139,490
+src/modules/powerdisplay/PowerDisplay/ViewModels/MonitorViewModel.cs
+  s_c3cb78fa61c7bf::t_c18f4edc3316de 213-218,678-687
+src/modules/powerrename/PowerRenameContextMenu/PowerRenameContextMenu.vcxproj
+  s_c3cb78fa61c7bf::t_6feb39790de3c7 6
+src/modules/powerrename/dll/PowerRenameExt.vcxproj
+  s_c3cb78fa61c7bf::t_cefa5f92454e65 6
+src/modules/previewpane/MarkdownPreviewHandlerCpp/MarkdownPreviewHandlerCpp.vcxproj
+  s_c3cb78fa61c7bf::t_6f08ef17a7d782 6
+src/modules/registrypreview/RegistryPreview/RegistryPreviewXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_50a41affa60102 51-57
+src/settings-ui/QuickAccess.UI/QuickAccessXAML/MainWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_39764f0a2dadde 10
+src/settings-ui/Settings.UI.Library/Enumerations/PowerAccentActivationKey.cs
+  s_c3cb78fa61c7bf::t_c5ef3ed4478d86 12
+src/settings-ui/Settings.UI.Library/MouseHighlighterProperties.cs
+  s_c3cb78fa61c7bf::t_22a165abcb5180 47-64,72-74,77-82
+src/settings-ui/Settings.UI.Library/PeekProperties.cs
+  s_c3cb78fa61c7bf::t_88a8fad69784f9 20-21,32-35
+src/settings-ui/Settings.UI.Library/PowerAccentProperties.cs
+  s_c3cb78fa61c7bf::t_b5f7b2b006595a 25-27,49
+src/settings-ui/Settings.UI.Library/PowerAccentSettings.cs
+  s_c3cb78fa61c7bf::t_33fff13d9ef034 16
+src/settings-ui/Settings.UI.Library/PowerDisplayProperties.cs
+  s_c3cb78fa61c7bf::t_caf9a7c8eb4963 21,52-58
+src/settings-ui/Settings.UI.Library/ZoomItProperties.cs
+  s_c3cb78fa61c7bf::t_a987abced969a9 31-33,40-42,59-60,65-66
+src/settings-ui/Settings.UI/SettingsXAML/Controls/Dashboard/ShortcutConflictWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_1f4216bea0eacc 48-58
+src/settings-ui/Settings.UI/SettingsXAML/OOBE/Views/ScoobeReleaseNotesPage.xaml
+  s_c3cb78fa61c7bf::t_343fac175d03a8 55,61-66
+src/settings-ui/Settings.UI/SettingsXAML/ScoobeWindow.xaml.cs
+  s_c3cb78fa61c7bf::t_48900928b4eb49 60-69
+src/settings-ui/Settings.UI/SettingsXAML/Views/NewPlusPage.xaml
+  s_c3cb78fa61c7bf::t_87134cf1e1f795 210
+src/settings-ui/Settings.UI/SettingsXAML/Views/PeekPage.xaml
+  s_c3cb78fa61c7bf::t_5ed1b5562363da 49-60
+src/settings-ui/Settings.UI/SettingsXAML/Views/PowerAccentPage.xaml
+  s_c3cb78fa61c7bf::t_a8734beafba1c8 48,51-63,208-209
+src/settings-ui/Settings.UI/SettingsXAML/Views/PowerDisplayPage.xaml
+  s_c3cb78fa61c7bf::t_5e658d23b6625f 87-92
+src/settings-ui/Settings.UI/SettingsXAML/Views/ZoomItPage.xaml
+  s_c3cb78fa61c7bf::t_bb5dcddd8d7744 409-411,418,421,423-426
+src/settings-ui/Settings.UI/ViewModels/DashboardViewModel.cs
+  s_c3cb78fa61c7bf::t_a3c08ff5a6f434 751-752
+src/settings-ui/Settings.UI/ViewModels/PeekViewModel.cs
+  s_c3cb78fa61c7bf::t_c8db9b074f1719 200-227
+src/settings-ui/Settings.UI/ViewModels/PowerAccentViewModel.cs
+  s_c3cb78fa61c7bf::t_6e09becc828650 91-92,225-227,233-234,274-293
+src/settings-ui/Settings.UI/ViewModels/PowerDisplayViewModel.cs
+  s_c3cb78fa61c7bf::t_313784ac3c2e96 383-402
+src/settings-ui/Settings.UI/ViewModels/ZoomItViewModel.cs
+  s_c3cb78fa61c7bf::t_f3ffa6d7cf27c8 424,426-427,429,431-433,466,468-469,471,473-475
+"tools/Verification scripts/verify-installation-script.ps1"
+  s_c3cb78fa61c7bf::t_36fe0759234167 435-436,500-507
+src/modules/cmdpal/Microsoft.CmdPal.UI/Controls/ContextMenu.xaml
+  s_c3cb78fa61c7bf::t_c802b837ca0c09 147-158,195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "471a421c5d060c3a760447d4ceea394693f5a6a3",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb78fa61c7bf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6df5875c-6bd9-437d-bbaa-0f5f488f7660",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "tonythethompson <tonythethompson@hotmail.com>"
+    }
+  }
+}
